@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @Slf4j
 @SpringBootApplication
-public class JavaOraclelinuxApplication {
+public class JavaOracleLinuxApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JavaOraclelinuxApplication.class, args);
+		SpringApplication.run(JavaOracleLinuxApplication.class, args);
 	}
 
 }
