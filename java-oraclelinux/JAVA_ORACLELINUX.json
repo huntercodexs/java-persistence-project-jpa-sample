@@ -1,0 +1,76 @@
+{
+  "info": {
+    "name": "JAVA_ORACLELINUX",
+    "description": "JAVA DB2 CUSTOMER API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "CREATE",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "disabled": false,
+            "type": "default"
+          }
+        ],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:38001/api/v1/customers",
+          "protocol": "http",
+          "host": [
+            "localhost:38001"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "customers"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"carlos\",\n    \"email\": \"carlos@email.com\",\n    \"age\": 44\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "LIST ALL",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:38001/api/v1/customers",
+          "protocol": "http",
+          "host": [
+            "localhost:38001"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "customers"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    }
+  ],
+  "variable": []
+}
